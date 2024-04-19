@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn-default {
+    @apply flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in;
+  }
+  .input-social-media{
+    @apply flex items-center justify-center bg-white text-lg text-[#1d1d1d] shadow-md rounded-xl w-11 h-10 transition-all ease-in;
+  }
+}
