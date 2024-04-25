@@ -2,18 +2,18 @@
 <html lang="pt-br"">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../src/styles/global.css">
-  <link rel="stylesheet" href="../src/styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <title>Landing Page food</title>
+  <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../src/styles/global.css">
+<link rel="stylesheet" href="../src/styles/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<title>Landing Page food</title>
 </head>
 
-<body class="bg-color-bg- overflow-x-hidden m-0 p-0">
-  <header id="header" class="w-screen fixed 4 z-10 bg-color-bg- top-[-1px]">
+<body class="bg-color-bg- m-0 p-0">
+  <header id="header" class="w-full fixed z-10 bg-color-bg- top-[-1px]">
     <nav class="w-full mx-auto my-0 max-w-screen-2xl flex justify-between items-center px-4 py-4">
       <a href="./index.html"><i class="fa-solid fa-burger text-color-yellow-50 text-2xl"> food</i></a>
 
@@ -58,11 +58,12 @@
       </div>
     </nav>
   </header>
-  <main class="w-screen">
-    <section class="items-center relative text-center flex w-full max-w-screen-2xl pt-[72px]  mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left"> <!-- min-h-[calc(95vh-96px)] = obrigado o conteudo o cupar o restante da tela tirando o menu por issop tiramos 96px de altura, tbm deixei 95vh para o usuaruio ver que tem mais coisa na pagina -->
-      <div class="w-2/3 h-full absolute -right-72 -z-10 lg:bg-[#ffe8b4]  lg:rounded-tl-[300px] lg:rounded-tr-[200px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
+  <main class="w-full relative">
+    <div class="w-3/6 h-2/6 absolute top-[96px] right-0 -z-10 lg:bg-[#ffe8b4] lg:rounded-tl-[300px] lg:rounded-tr-[200px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
+    <section class="items-center  overflow-hidden  text-center flex w-full max-w-screen-2xl pt-[72px] mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left"> <!-- min-h-[calc(95vh-96px)] = obrigado o conteudo o cupar o restante da tela tirando o menu por issop tiramos 96px de altura, tbm deixei 95vh para o usuaruio ver que tem mais coisa na pagina -->
 
-      <div id="cta" class="w-full items-center lg:w-3/5 lg:items-start flex flex-col gap-8">
+
+      <div id="cta" class="w-full lg:w-2/5 items-center lg:items-start flex flex-col gap-8">
         <h1 class="font-bold text-color-brown-90 text-6xl leading-snug ">
           O sabor que vai até <span class="text-color-yellow-50">você</span>
         </h1>
@@ -93,7 +94,7 @@
           </a>
         </div>
       </div>
-      <div id="foodsHero" class="hidden lg:flex w-10/12 items-start justify-end">
+      <div id="foodsHero" class="hidden lg:flex w-3/5 items-center justify-end">
         <img class="h-full w-fit" src="../src/img/hero.png" alt="Imagem de comida">
       </div>
     </section>
@@ -301,7 +302,7 @@
     </section>
   </main>
 
-  <footer class="w-screen bg-color-yellow-10">
+  <footer class="w-full bg-color-yellow-10">
   <div class="min-w-max">
     <img class="w-full" src="../src/img/wave.svg" alt="">
   </div>
@@ -320,7 +321,7 @@
         </a>
       </div>
     </div>
-  </footer>
+  </footer> 
   <script src="../src/js/script.js"></script>
 </body>
 
