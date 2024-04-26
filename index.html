@@ -59,11 +59,10 @@
     </nav>
   </header>
   <main class="w-full relative">
-    <div class="w-3/6 h-2/6 absolute top-[96px] right-0 -z-10 lg:bg-[#ffe8b4] lg:rounded-tl-[300px] lg:rounded-tr-[200px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
-    <section class="items-center  overflow-hidden  text-center flex w-full max-w-screen-2xl pt-[72px] mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left"> <!-- min-h-[calc(95vh-96px)] = obrigado o conteudo o cupar o restante da tela tirando o menu por issop tiramos 96px de altura, tbm deixei 95vh para o usuaruio ver que tem mais coisa na pagina -->
+    <div class="w-3/6 min-h-[calc(90vh-96px)] absolute top-[96px] right-0 -z-10 lg:bg-[#ffe8b4]  lg:rounded-tl-[300px] lg:rounded-tr-[150px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
+    <section class="items-center text-center flex w-full max-w-screen-2xl pt-[72px] mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left">  <!-- min-h-[calc(95vh-96px)] = obrigado o conteudo o cupar o restante da tela tirando o menu por issop tiramos 96px de altura, tbm deixei 95vh para o usuaruio ver que tem mais coisa na pagina -->
 
-
-      <div id="cta" class="w-full lg:w-2/5 items-center lg:items-start flex flex-col gap-8">
+      <div id="cta" class="w-full items-center lg:w-2/5 lg:items-start flex flex-col gap-8">
         <h1 class="font-bold text-color-brown-90 text-6xl leading-snug ">
           O sabor que vai até <span class="text-color-yellow-50">você</span>
         </h1>
@@ -99,7 +98,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col items-center justify-center max-w-screen-2xl h-full px-8 pt-10 mx-auto my-0">
+    <section class="flex flex-col items-center justify-center max-w-screen-2xl h-full px-8 pt-12 mx-auto my-0">
       <h2 class="text-2xl font-bold text-color-yellow-50">Cardápio</h2>
       <h3 class="text-4xl text-center font-bold
       ">Nossos pratos especiais</h3>
@@ -241,8 +240,8 @@
 
     <section class="w-full max-w-screen-2xl flex items-center justify-center mx-auto px-8 my-0 gap-8 py-20 
     ">
-      <div id="chef" class="hidden w-4/12 lg:block">
-        <img class="w-full h-fit" src="../src/img/chef.png" alt="foto de chef">
+      <div id="chef" class="hidden lg:w-4/12 lg:block">
+        <img class="lg:w-full lg:h-fit" src="../src/img/chef.png" alt="foto de chef">
       </div>
 
       <div class="w-full flex flex-col gap-5 md:max-w-xl lg:w-8/12">
@@ -303,10 +302,7 @@
   </main>
 
   <footer class="w-full bg-color-yellow-10">
-  <div class="min-w-max">
-    <img class="w-full" src="../src/img/wave.svg" alt="">
-  </div>
-    
+    <img class="w-full top[-1px]" src="../src/img/wave.svg" alt="">
     <div class="w-full max-w-screen-2xl flex justify-between items-center pb-10 px-8 mx-auto my-0">
       <span> @copy 2024 Nicolas Yanase</span>
       <div class="flex gap-x-4">
