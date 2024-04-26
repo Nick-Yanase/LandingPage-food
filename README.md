@@ -1,1 +1,2 @@
-# Projeto de uma lading page de restaurante com taiwind CSS e JS
+# Projeto de uma landing page FOOD 
+Uma landing page de restaurante realziada com taiwind CSS e JS
